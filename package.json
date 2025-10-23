@@ -1,15 +1,10 @@
 {
-  "name": "discord-music-bot",
+  "name": "music-bot",
   "version": "1.0.0",
-  "description": "A Discord music bot using discord.js v14",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "discord.js": "^14.15.2",
-    "@discordjs/voice": "^0.17.0",
-    "play-dl": "^1.9.7",
-    "@distube/ytdl-core": "^4.15.8"
+    "discord.js": "^14.16.3",
+    "erela.js": "^2.4.0",
+    "dotenv": "^16.3.1"
   }
 }
